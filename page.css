@@ -1,0 +1,155 @@
+*{
+    font-family:Arial;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #333;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    height:80px;
+
+}
+.navbar .logo
+{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    text-decoration: none;
+    margin-left:20px;
+} 
+.navbar .logo img{
+    width:70px;
+    border-radius: 50%;
+}
+
+.navbar .logo h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar .links
+{
+    display:flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.navbar .links a{
+    text-decoration: none;
+    color:white
+}
+.navbar .links a:hover
+{
+    color: rgb(61, 61, 246);
+}
+
+.navbar .login
+{
+    border:none;
+    outline:none;
+    padding: 10px 18px;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+p{
+    text-align: center;
+}
+.product button {
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+}
+.product button:hover {
+    background-color: rgb(13, 68, 13);
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-box
+{
+    width:400px;
+}
+
+.form-box input,select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-box button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
+#close
+{
+    margin-left: 87.5%;
+}
+.form-box button:hover {
+  background-color: rgb(13, 68, 13);
+}
+
+input {
+  background-color: #9fe7f9;
+}
+
+footer{
+    background-color: #333;
+    height:60px;
+    color:white;
+    text-align: center;
+    
+}
